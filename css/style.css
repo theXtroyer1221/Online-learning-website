@@ -86,7 +86,7 @@ header .overlay {
 
 @media screen and (max-width: 991px) {
   .scroll {
-    background-color: #2f303a;
+    background-color: #2f303a !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
