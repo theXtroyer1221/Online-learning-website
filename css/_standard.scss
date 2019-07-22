@@ -1,0 +1,20 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: $font1 !important;
+}
+
+p {
+  font-family: $font2 !important;
+}
+// bootstrap overide
+.bg-dark {
+  background-color: #2f303a !important;
+}
