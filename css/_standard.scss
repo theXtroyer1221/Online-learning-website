@@ -5,16 +5,95 @@ ol {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-h1 {
+img {
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font1 !important;
 }
 
 p {
   font-family: $font2 !important;
 }
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+
+blockquote footer {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777;
+}
+
+//quote footer cross
+blockquote footer::before {
+  content: "\2014 \00A0";
+}
+
+dd::before {
+  content: "\2014 \00A0";
+}
+
 // bootstrap overide
 .bg-dark {
   background-color: #2f303a !important;
+}
+//normal overide such as wrappers
+
+.row .img-full {
+  width: 100%;
+}
+
+.img-wrap {
+  float: right;
+}
+
+.scource-youtube iframe {
+  width: 100% !important;
+}
+
+.source-you-img {
+  border-radius: 50%;
+}
+
+#entry-author {
+  margin: 0 0 40px;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+#entry-author #entry-author-title {
+  margin: 0 0 10px 100px;
+  font-size: 15px;
+  color: #999;
+}
+
+#entry-author .entry-author-name {
+  display: inline-block;
+  margin: 0 0 15px 30px;
+  font-size: 18px;
+}
+
+#entry-author .entry-author-desc {
+  margin: 0 0 0 100px;
+  font-size: 14px;
+}
+
+#entry-author .author-img {
+  float: left;
+  border-radius: 50%;
 }
