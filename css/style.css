@@ -53,6 +53,10 @@ dd::before {
   background-color: #2f303a !important;
 }
 
+.js-scroll-trigger:hover {
+  color: white;
+}
+
 .row .img-full {
   width: 100%;
 }
@@ -107,15 +111,15 @@ header .overlay {
   z-index: 1;
 }
 
-@media (pointer: coarse) and (hover: none) {
+/*@media (pointer: coarse) and (hover: none) {
   header {
-    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll;
+    background: url("https://www.historyonthenet.com/wp-content/uploads/2014/11/140828132531-01-world-war-ii-0828-horizontal-large-gallery.jpg") black no-repeat center center scroll;
+    background-size: cover;
   }
   header video {
     display: none;
   }
-}
-
+}*/
 .footer-social-wrapper {
   background-color: #43444d !important;
 }
@@ -159,6 +163,19 @@ header .overlay {
 @media screen and (max-width: 991px) {
   .scroll {
     background-color: #2f303a !important;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  .display-3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navbar-brand {
+    font-size: 1.05rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

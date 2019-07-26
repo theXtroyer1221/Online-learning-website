@@ -52,6 +52,12 @@ dd::before {
 .bg-dark {
   background-color: #2f303a !important;
 }
+
+.js-scroll-trigger {
+  &:hover {
+    color: white;
+  }
+}
 //normal overide such as wrappers
 
 .row .img-full {
