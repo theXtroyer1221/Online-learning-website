@@ -1,0 +1,181 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+p {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+
+blockquote footer {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777;
+}
+
+blockquote footer::before {
+  content: "\2014 \00A0";
+}
+
+dd::before {
+  content: "\2014 \00A0";
+}
+
+.bg-dark {
+  background-color: #2f303a !important;
+}
+
+.js-scroll-trigger:hover {
+  color: white;
+}
+
+.row .img-full {
+  width: 100%;
+}
+
+.img-wrap {
+  float: right;
+}
+
+.scource-youtube iframe {
+  width: 100% !important;
+}
+
+.source-you-img {
+  border-radius: 50%;
+}
+
+.masthead {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.masthead video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.masthead .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+/*@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://www.historyonthenet.com/wp-content/uploads/2014/11/140828132531-01-world-war-ii-0828-horizontal-large-gallery.jpg") black no-repeat center center scroll;
+    background-size: cover;
+  }
+  header video {
+    display: none;
+  }
+}*/
+.footer-social-wrapper {
+  background-color: #43444d !important;
+}
+
+.footer-copyright,
+.footer-social {
+  color: white !important;
+}
+
+.footer-social a {
+  color: white;
+  text-decoration: none;
+}
+
+.container-nb {
+  padding: 1rem 2rem;
+  background-color: #2f303a;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.navbar {
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.nav-link {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.scroll {
+  background-color: transparent !important;
+  padding: 2rem;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 991px) {
+  .scroll {
+    background-color: #2f303a !important;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 513px) {
+  .display-3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .navbar-brand {
+    font-size: 1.05rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
